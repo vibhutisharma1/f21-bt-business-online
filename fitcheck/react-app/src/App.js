@@ -7,7 +7,6 @@
 
 import './common';
 
-import axios from 'axios';
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,6 +22,8 @@ import Register from "./components/Register";
 import Landing from "./components/Landing";
 import MyFits from "./components/MyFits";
 import Navbar from "./components/Navbar";
+import Wardrobe from "./components/Wardrobe";
+import Create from "./components/Create";
 
 function App() {
   return (
@@ -37,10 +38,19 @@ function App() {
           <Navbar></Navbar>
           <Register></Register>
           </Route>
+          <Route path="/Wardrobe">
+          <Navbar></Navbar>
+            <Wardrobe/>
+          </Route>
           <Route path="/MyFits">
           <Navbar></Navbar>
             <MyFits></MyFits>
           </Route>
+          <Route path="/Create">
+          <Navbar></Navbar>
+          <Create/>
+          </Route>
+       
           <Route path="/">
           <Navbar></Navbar>
          

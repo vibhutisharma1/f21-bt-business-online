@@ -28,13 +28,13 @@ class Navbar extends React.Component{
                 <NavLink to= '/landing' activeStyle>
                   HOME
                 </NavLink>
-                <NavLink to='/login' activeStyle>
+                <NavLink to='/Create' activeStyle>
                   CREATE
                 </NavLink>
                 <NavLink to='/MyFits' activeStyle>
                   MY FITS 
                 </NavLink>
-                <NavLink to='/register' activeStyle>
+                <NavLink to='/Wardrobe' activeStyle>
                   WARDROBE
                   <img className = "logo" src={logo} alt='logo' />
                 </NavLink>
